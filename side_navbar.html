@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Side Navbar</title>
+    <link rel = "stylesheet" href = "navbar.css">
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href = "home_page.html">Home</a>
+    <a href = "quotes_page.html">Quotes</a>
+    <a href = "blogs_page.html">Blogs</a>
+    <a href = "books_page.html">Books</a>
+    <a href = "music_page.html">Music</a>
+    <a href = "news_page.html">News</a>
+    <a href = "about_page.html">About</a>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    
+    <script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+
+</body>
+</html>
+

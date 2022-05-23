@@ -1,0 +1,12 @@
+body{
+    background-color: #f2cecb;
+    padding: 20px;
+    margin: 20px;
+}
+
+.title{
+    color: #4a4848;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 60px;
+    text-align: center;
+}
