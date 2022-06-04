@@ -5,14 +5,32 @@
     <!-- stylesheet for icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel = "stylesheet" href = "about_page.css">
+    <link rel = "stylesheet" href = "navbar.css">
 </head>
 
 <body>
-    
-    <p> Find me on social media! </p>
-    <a href = "https://www.facebook.com/profile.php?id=100009003095467" class = "fa fa-facebook"></a>
-    <a href = "https://www.linkedin.com/in/kinjalshah3001/" class = "fa fa-linkedin"></a>
-    <a href = "https://www.instagram.com/kinjal.xx/" class = "fa fa-instagram"></a>
+    <div class = "mm_logo">
+        <img src = "Images/MM_logo.png" alt = "MM logo" class = "mmlogo">
+    </div>
+
+    <!-- Vertical Navbar placeholder using js function-->
+    <div id="nav_placeholder">
+    </div>
+    <script>
+        $(function(){
+           $("#nav_placeholder").load("side_navbar.html");
+        });
+    </script>
+
+    <div>
+        <p> Find me on social media! </p>
+        <a href = "https://www.facebook.com/profile.php?id=100009003095467" class = "fa fa-facebook"></a>
+        <a href = "https://www.linkedin.com/in/kinjalshah3001/" class = "fa fa-linkedin"></a>
+        <a href = "https://www.instagram.com/kinjal.xx/" class = "fa fa-instagram"></a>
+    </div>
+
+
+
 
 </body>
 

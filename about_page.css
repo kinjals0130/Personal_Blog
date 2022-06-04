@@ -1,3 +1,18 @@
+body{
+    background-color: #f2cecb;
+}
+
+.mm_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.mmlogo{
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+}
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -25,3 +40,4 @@
     background: #954dbc;
     color: white;
 }
+

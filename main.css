@@ -4,6 +4,17 @@ body{
     margin: 20px;
 }
 
+.mm_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.mmlogo{
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+}
+
 .title{
     color: #4a4848;
     font-family: 'Brush Script MT', cursive;
