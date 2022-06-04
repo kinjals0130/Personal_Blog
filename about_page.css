@@ -1,7 +1,10 @@
 body{
     background-color: #f2cecb;
+    padding: 20px;
+    margin: 20px;
 }
 
+/*css for the website logo*/
 .mm_logo{
     display: flex;
     justify-content: center;
@@ -16,16 +19,19 @@ body{
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
+    width: 30px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    /*border radius adds the circle icons*/
+    border-radius: 50%;
 }
 
 .fa hover{
     opacity: 0.7;
 }
 
+/*adds the fb, linkedin, and ig icons*/
 .fa-facebook {
     background: #1856dd;
     color: white;

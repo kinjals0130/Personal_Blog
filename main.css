@@ -4,6 +4,7 @@ body{
     margin: 20px;
 }
 
+/*website logo css*/
 .mm_logo{
     display: flex;
     justify-content: center;
@@ -15,9 +16,11 @@ body{
     height: 250px;
 }
 
+/* title css
 .title{
     color: #4a4848;
     font-family: 'Brush Script MT', cursive;
     font-size: 60px;
     text-align: center;
 }
+*/
