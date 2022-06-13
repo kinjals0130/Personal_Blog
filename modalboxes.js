@@ -22,7 +22,6 @@ window.onclick = function(event) {
   }
 }
 
-
 //button 2
 var modal2 = document.getElementById("myModal2");
 var btn2 = document. getElementById("myBtn2");
