@@ -37,17 +37,14 @@
   cursor: pointer;
 }
 
-/* The Close Button
-.close2 {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+/* The modal buttons */
+.modalBtn{
+  width: 150px;
+  height: 50px;
+  align-items: center;
+  background-color: #BAB4BA;
 }
 
-.close2:hover,
-.close2:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-} */
+.modalBtn:hover{
+  background-color: grey;
+}

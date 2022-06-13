@@ -34,8 +34,4 @@ btn2.onclick = function(){
 span.onclick = function(){
   modal2.style.display = "none";
 }
-// window.onclick = function(event){
-//   if(event.target == modal2){
-//     modal2.style.display = "none";
-//   }
-// }
+
