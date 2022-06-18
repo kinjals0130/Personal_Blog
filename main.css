@@ -16,11 +16,12 @@ body{
     height: 250px;
 }
 
-/* title css
-.title{
-    color: #4a4848;
-    font-family: 'Brush Script MT', cursive;
-    font-size: 60px;
+.motivation_def{
+    background-color: white;
     text-align: center;
+    padding: 20px;
+    width: 500px;
+    margin-left: 25%;
 }
-*/
+
+/*figure out media stuff for side navbar */

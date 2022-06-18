@@ -41,6 +41,7 @@
 .modalBtn{
   width: 150px;
   height: 50px;
+  margin-right: 20px;
   align-items: center;
   background-color: #BAB4BA;
 }
