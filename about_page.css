@@ -3,11 +3,27 @@ body{
     padding: 20px;
     margin: 20px;
 }
+hr{
+    border-top: 2px dotted gray;
+    border-bottom-style: none;
+    width: 25%;
+}
+
+.about_me{
+    width: 450px;
+    padding: 10px;
+    border: 5px solid gray;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
 .why{
     width: 500px;
     padding: 10px;
     border: 5px solid gray;
+    background-color: white;
     margin-left: auto;
     margin-right:auto;
     text-align: center;
