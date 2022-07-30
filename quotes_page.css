@@ -1,3 +1,22 @@
 body{
-    background-color: #bcbced;
+    background-color: #CCE5FF;
+    padding: 20px;
+    margin: 20px;
+}
+hr{
+    border-top: 2px dotted gray;
+    border-bottom-style: none;
+    width: 25%;
+}
+
+/*css for the website logo*/
+.mm_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.mmlogo{
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
 }

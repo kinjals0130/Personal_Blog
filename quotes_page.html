@@ -2,34 +2,27 @@
 <html>
 
 <head>
-    <title>Motivational Quotes</title>
-    <link rel = "stylesheet" src = "quotes_page.css">
+    <meta charset="utf-8">
+    <title>Quotes Page</title>
+    <link rel = "stylesheet" href = "quotes_page.css">
     <link rel = "stylesheet" href = "navbar.css">
     <!-- use this script to implement the navbar as a js function-->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
+    <div class = "mm_logo">
+        <img src = "Images/MM_logoBlue.png" alt = "MM logo" class = "mmlogo">
+    </div>
+
     <!-- Vertical Navbar placeholder using js function-->
     <div id="nav_placeholder">
-        <script>
-            $(function(){
-                $("#nav_placeholder").load("side_navbar.html");
-            });
-        </script>
     </div>
-
-    <div class = "quotes_title">
-        <h1>Inspirational Quotes</h1>
-        
-    </div>
-
-
-    <div class = "life_quotes">
-        <h3>
-
-        </h3>
-    </div>
+    <script>
+        $(function(){
+           $("#nav_placeholder").load("side_navbar.html");
+        });
+    </script>
 </body>
 
 </html>
