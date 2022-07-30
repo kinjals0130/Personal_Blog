@@ -3,7 +3,8 @@
 
 <head>
     <title>Motivational Quotes</title>
-    <link rel = "stylesheet" src = "main.css">
+    <link rel = "stylesheet" src = "quotes_page.css">
+    <link rel = "stylesheet" href = "navbar.css">
     <!-- use this script to implement the navbar as a js function-->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
@@ -11,17 +12,18 @@
 <body>
     <!-- Vertical Navbar placeholder using js function-->
     <div id="nav_placeholder">
+        <script>
+            $(function(){
+                $("#nav_placeholder").load("side_navbar.html");
+            });
+        </script>
     </div>
 
     <div class = "quotes_title">
         <h1>Inspirational Quotes</h1>
         
     </div>
-    <script>
-        $(function(){
-            $("#nav_placeholder").load("side_navbar.html");
-        });
-    </script>
+
 
     <div class = "life_quotes">
         <h3>
